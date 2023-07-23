@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom css */
+
+.btn-web{
+    @apply py-2 px-4 font-bold;
+}
+.btn-web-primary{
+    @apply rounded-full shadow-md bg-white;
+}
+.container-web{
+    @apply max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5;
+}
+.section-padding{
+    @apply py-12;
+}
